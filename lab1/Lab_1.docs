@@ -1,0 +1,16 @@
+1. explain the command "git reset"
+Answer: The git reset command is used in Git to undo changes in your repository by resetting the current HEAD, index (staging area), and/or working directory to a specified state. It's a powerful tool that can be destructive if not used carefully.
+
+git reset <mode> <commit>
+Where:
+
+<mode> controls what is reset (HEAD, index, working directory).
+
+<commit> is the target commit to reset to.
+
+
+2. what are the different options and give examples?
+Answer:
+
+1. git init: initialize the repo.
+2. git clone: Copying the remote repo.
